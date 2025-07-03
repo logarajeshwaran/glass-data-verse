@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "title": "Building Scalable Data Pipelines with Apache Beam",
+    "date": "2024-01-15",
+    "summary": "A comprehensive guide to building scalable, portable data pipelines using Apache Beam. Learn best practices for batch and streaming processing.",
+    "readTime": "8 min read",
+    "url": "https://your-blog.com/scalable-data-pipelines-apache-beam"
+  },
+  {
+    "id": 2,
+    "title": "Data Quality: The Foundation of Reliable Analytics",
+    "date": "2024-01-08",
+    "summary": "Exploring strategies for implementing robust data quality frameworks in modern data engineering workflows. From validation to monitoring.",
+    "readTime": "6 min read",
+    "url": "https://your-blog.com/data-quality-reliable-analytics"
+  },
+  {
+    "id": 3,
+    "title": "MLOps: Bridging the Gap Between Data Science and Production",
+    "date": "2023-12-22",
+    "summary": "How to build effective MLOps pipelines that enable seamless model deployment and monitoring in production environments.",
+    "readTime": "10 min read",
+    "url": "https://your-blog.com/mlops-data-science-production"
+  },
+  {
+    "id": 4,
+    "title": "Stream Processing Patterns with Apache Kafka",
+    "date": "2023-12-15",
+    "summary": "Essential patterns for building robust stream processing applications. Learn about windowing, joins, and fault tolerance strategies.",
+    "readTime": "7 min read",
+    "url": "https://your-blog.com/stream-processing-apache-kafka"
+  },
+  {
+    "id": 5,
+    "title": "Cost Optimization in Cloud Data Engineering",
+    "date": "2023-12-01",
+    "summary": "Practical strategies for optimizing costs in cloud-based data engineering projects without compromising performance or reliability.",
+    "readTime": "5 min read",
+    "url": "https://your-blog.com/cost-optimization-cloud-data-engineering"
+  },
+  {
+    "id": 6,
+    "title": "The Future of Data Mesh Architecture",
+    "date": "2023-11-18",
+    "summary": "Exploring the principles and implementation strategies of data mesh architecture for large-scale, decentralized data systems.",
+    "readTime": "9 min read",
+    "url": "https://your-blog.com/future-data-mesh-architecture"
+  }
+]

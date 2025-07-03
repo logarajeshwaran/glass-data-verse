@@ -1,0 +1,101 @@
+
+{
+  "experience": [
+    {
+      "id": 1,
+      "date": "2021 - Present",
+      "title": "Senior Data Engineer",
+      "company": "TechCorp Solutions",
+      "description": "Lead data engineering initiatives for enterprise clients, designing and implementing scalable data pipelines processing 10TB+ daily. Mentor junior engineers and drive adoption of best practices in DataOps and data governance.",
+      "skills": ["Python", "Apache Spark", "Google Cloud Platform", "Kubernetes", "Apache Airflow"]
+    },
+    {
+      "id": 2,
+      "date": "2019 - 2021",
+      "title": "Data Engineer",
+      "company": "DataFlow Inc.",
+      "description": "Built and maintained ETL pipelines for real-time and batch processing. Implemented data quality frameworks and automated testing for data pipelines. Reduced data processing costs by 35% through optimization.",
+      "skills": ["Python", "Apache Kafka", "AWS", "PostgreSQL", "Apache Beam"]
+    },
+    {
+      "id": 3,
+      "date": "2018 - 2019",
+      "title": "Junior Data Engineer",
+      "company": "Analytics Pro",
+      "description": "Developed data extraction and transformation scripts for various data sources. Collaborated with data scientists to prepare datasets for machine learning models. Built monitoring and alerting systems for data pipelines.",
+      "skills": ["Python", "SQL", "Apache Airflow", "MySQL", "Docker"]
+    },
+    {
+      "id": 4,
+      "date": "2017 - 2018",
+      "title": "Software Developer",
+      "company": "DevSolutions Ltd.",
+      "description": "Started career as a full-stack developer before transitioning to data engineering. Built web applications and APIs, gaining valuable experience in software development lifecycle and agile methodologies.",
+      "skills": ["Python", "JavaScript", "React", "PostgreSQL", "REST APIs"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": ["Python", "SQL", "Scala", "Java", "JavaScript", "Shell Scripting"]
+    },
+    {
+      "category": "Data Processing",
+      "icon": "fas fa-database",
+      "skills": ["Apache Spark", "Apache Kafka", "Apache Beam", "Pandas", "NumPy", "Dask"]
+    },
+    {
+      "category": "Cloud Platforms",
+      "icon": "fas fa-cloud",
+      "skills": ["Google Cloud Platform", "Amazon Web Services", "Microsoft Azure", "Databricks"]
+    },
+    {
+      "category": "Orchestration & Workflow",
+      "icon": "fas fa-sitemap",
+      "skills": ["Apache Airflow", "Prefect", "Dagster", "Google Cloud Composer", "AWS Step Functions"]
+    },
+    {
+      "category": "Databases",
+      "icon": "fas fa-server",
+      "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "BigQuery", "Snowflake"]
+    },
+    {
+      "category": "DevOps & Infrastructure",
+      "icon": "fas fa-cogs",
+      "skills": ["Docker", "Kubernetes", "Terraform", "CI/CD", "Git", "Linux"]
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "fas fa-trophy",
+      "title": "Data Engineering Excellence Award",
+      "description": "Recognized for outstanding contributions to data architecture and pipeline optimization, resulting in 50% improvement in processing efficiency."
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Team Leadership",
+      "description": "Successfully led a team of 8 engineers in migrating legacy systems to modern cloud-native architecture, completing the project 2 months ahead of schedule."
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Cost Optimization",
+      "description": "Implemented cost optimization strategies across multiple projects, achieving cumulative savings of $2M annually through efficient resource utilization."
+    },
+    {
+      "icon": "fas fa-graduation-cap",
+      "title": "Technical Mentorship",
+      "description": "Mentored 15+ junior engineers, with 90% receiving promotions within 18 months. Developed internal training programs for data engineering best practices."
+    },
+    {
+      "icon": "fas fa-open-source",
+      "title": "Open Source Contributions",
+      "description": "Active contributor to Apache Airflow and other open source projects. Created and maintain popular data engineering tools with 1000+ GitHub stars."
+    },
+    {
+      "icon": "fas fa-microphone",
+      "title": "Industry Speaking",
+      "description": "Regular speaker at data engineering conferences and meetups. Delivered 20+ technical talks on data architecture, streaming, and best practices."
+    }
+  ]
+}
