@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enhanced.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -63,18 +64,18 @@
                     <span class="gradient-text">One Pipeline at a Time</span>
                 </h1>
                 <p class="hero-subtitle animate-fade-up delay-1">
-                    Loga Rajeshwaran – Data Engineer | Automation Enthusiast | Cloud Native Thinker
+                    Hi, I'm Loga Rajeshwaran — Data Engineer | Automation Geek | Cloud Native Thinker
                 </p>
                 <div class="hero-cta animate-fade-up delay-2">
-                    <a href="#" class="btn btn-primary" id="download-resume">
+                    <a href="#" class="btn btn-primary glass-enhanced" id="download-resume">
                         <i class="fas fa-download"></i>
                         Download Resume
                     </a>
-                    <a href="#projects" class="btn btn-secondary">
-                        <i class="fas fa-code"></i>
-                        View Projects
+                    <a href="#projects" class="btn btn-secondary glass-enhanced">
+                        <i class="fas fa-rocket"></i>
+                        Explore Projects
                     </a>
-                    <a href="#contact" class="btn btn-outline">
+                    <a href="#contact" class="btn btn-outline glass-enhanced">
                         <i class="fas fa-envelope"></i>
                         Get in Touch
                     </a>
@@ -89,7 +90,7 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <div class="glass-card">
+                    <div class="glass-card glass-enhanced">
                         <p class="intro-text">
                             With over 6 years of experience in data engineering, I specialize in building robust, scalable data pipelines that transform raw data into actionable insights. My journey began with a curiosity about how data flows through systems, and it has evolved into a passion for creating efficient, automated solutions that drive business value.
                         </p>
@@ -126,7 +127,7 @@
                     </div>
                 </div>
                 <div class="about-details">
-                    <div class="glass-card">
+                    <div class="glass-card glass-enhanced">
                         <h3>Certifications & Credentials</h3>
                         <ul class="certifications-list">
                             <li><i class="fab fa-google"></i> Google Cloud Professional Data Engineer</li>
@@ -137,26 +138,58 @@
                             <li><i class="fas fa-snow-flake"></i> Snowflake Data Engineer Certification</li>
                         </ul>
                     </div>
-                    <div class="glass-card">
+                    <div class="glass-card glass-enhanced">
                         <h3>Fun Facts About Me</h3>
-                        <ul class="fun-facts">
-                            <li>☕ I've consumed approximately 2,190 cups of coffee while debugging pipelines</li>
-                            <li>🎵 My code quality improves by 23% when listening to jazz music</li>
-                            <li>🏃‍♂️ Marathon runner - data isn't the only thing I pipeline efficiently!</li>
-                            <li>📚 Currently reading "Designing Data-Intensive Applications" for the 4th time</li>
-                            <li>🔧 Built a home IoT system that monitors my coffee consumption patterns</li>
-                            <li>🎯 Can spot a data quality issue from 100 rows away</li>
-                        </ul>
+                        <div class="fun-facts-grid">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front glass-enhanced">
+                                        <i class="fas fa-coffee" style="font-size: 2rem; color: var(--primary-color);"></i>
+                                    </div>
+                                    <div class="flip-card-back glass-enhanced">
+                                        <p>2,190+ cups of coffee while debugging pipelines</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front glass-enhanced">
+                                        <i class="fas fa-music" style="font-size: 2rem; color: var(--primary-color);"></i>
+                                    </div>
+                                    <div class="flip-card-back glass-enhanced">
+                                        <p>Code quality improves 23% with jazz music</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front glass-enhanced">
+                                        <i class="fas fa-running" style="font-size: 2rem; color: var(--primary-color);"></i>
+                                    </div>
+                                    <div class="flip-card-back glass-enhanced">
+                                        <p>Marathon runner - data isn't the only thing I pipeline!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <style>
+                            .fun-facts-grid {
+                                display: grid;
+                                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                                gap: 1rem;
+                                margin-top: 1rem;
+                            }
+                        </style>
                     </div>
                 </div>
             </div>
-            <div class="mission-statement glass-card">
+            <div class="mission-statement glass-card glass-enhanced">
                 <blockquote>
                     "Data is the new oil, but pipelines are the refineries. My mission is to build the infrastructure that transforms data potential into business reality, ensuring every byte serves a purpose and every insight drives action."
                 </blockquote>
                 <cite>- My philosophy on data engineering</cite>
             </div>
-            <div class="collaboration-section glass-card">
+            <div class="collaboration-section glass-card glass-enhanced">
                 <h3>Open for Collaboration</h3>
                 <p>
                     I'm actively seeking opportunities to work with innovative teams on cutting-edge data projects. Whether it's architecting real-time streaming platforms, implementing comprehensive MLOps solutions, designing data mesh architectures, or tackling complex data migration challenges, I'm excited to collaborate on projects that push the boundaries of what's possible with data.
@@ -188,7 +221,7 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid" id="projects-container">
-                <!-- Projects will be loaded dynamically -->
+                <!-- Projects will be loaded dynamically with enhanced effects -->
             </div>
         </div>
     </section>
@@ -198,24 +231,24 @@
         <div class="container">
             <h2 class="section-title">Interactive Resume</h2>
             <div class="resume-tabs">
-                <button class="tab-btn active" data-tab="experience">Experience</button>
-                <button class="tab-btn" data-tab="skills">Skills</button>
-                <button class="tab-btn" data-tab="achievements">Achievements</button>
+                <button class="tab-btn active glass-enhanced" data-tab="experience">Experience</button>
+                <button class="tab-btn glass-enhanced" data-tab="skills">Skills</button>
+                <button class="tab-btn glass-enhanced" data-tab="achievements">Achievements</button>
             </div>
             <div class="resume-content">
                 <div class="tab-content active" id="experience">
-                    <div class="timeline" id="timeline-container">
-                        <!-- Timeline will be loaded dynamically -->
+                    <div class="timeline timeline-enhanced" id="timeline-container">
+                        <!-- Timeline will be loaded dynamically with enhanced effects -->
                     </div>
                 </div>
                 <div class="tab-content" id="skills">
                     <div class="skills-grid" id="skills-container">
-                        <!-- Skills will be loaded dynamically -->
+                        <!-- Skills will be loaded dynamically with enhanced effects -->
                     </div>
                 </div>
                 <div class="tab-content" id="achievements">
                     <div class="achievements-grid" id="achievements-container">
-                        <!-- Achievements will be loaded dynamically -->
+                        <!-- Achievements will be loaded dynamically with enhanced effects -->
                     </div>
                 </div>
             </div>
@@ -248,7 +281,7 @@
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-form-container">
-                    <form class="contact-form glass-card" id="contact-form">
+                    <form class="contact-form glass-card glass-enhanced" id="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -261,7 +294,7 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-primary glass-enhanced">
                             <i class="fas fa-paper-plane"></i>
                             Send Message
                         </button>
@@ -269,16 +302,16 @@
                 </div>
                 <div class="contact-info">
                     <div class="social-links">
-                        <a href="#" class="social-link linkedin">
+                        <a href="#" class="social-link linkedin glass-enhanced">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="social-link github">
+                        <a href="#" class="social-link github glass-enhanced">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-link twitter">
+                        <a href="#" class="social-link twitter glass-enhanced">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="social-link hashnode">
+                        <a href="#" class="social-link hashnode glass-enhanced">
                             <i class="fab fa-hashnode"></i>
                         </a>
                     </div>
@@ -298,5 +331,6 @@
     <script src="js/main.js"></script>
     <script src="js/components.js"></script>
     <script src="js/animations.js"></script>
+    <script src="js/enhanced.js"></script>
 </body>
 </html>
