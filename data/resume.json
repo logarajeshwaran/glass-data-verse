@@ -6,96 +6,140 @@
       "date": "2021 - Present",
       "title": "Senior Data Engineer",
       "company": "TechCorp Solutions",
-      "description": "Lead data engineering initiatives for enterprise clients, designing and implementing scalable data pipelines processing 10TB+ daily. Mentor junior engineers and drive adoption of best practices in DataOps and data governance.",
-      "skills": ["Python", "Apache Spark", "Google Cloud Platform", "Kubernetes", "Apache Airflow"]
+      "description": "Lead data engineering initiatives for enterprise clients, designing and implementing scalable data pipelines processing 10TB+ daily. Architect cloud-native solutions on GCP and AWS, reducing infrastructure costs by 35%. Mentor team of 8 junior engineers and drive adoption of DataOps best practices. Led successful migration of legacy systems to modern data architecture, completing projects 25% ahead of schedule.",
+      "skills": ["Python", "Apache Spark", "Google Cloud Platform", "Kubernetes", "Apache Airflow", "BigQuery", "Terraform", "Docker"],
+      "achievements": [
+        "Reduced data processing latency by 60% through pipeline optimization",
+        "Led team of 8 engineers in successful cloud migration project",
+        "Implemented automated testing reducing production bugs by 80%",
+        "Designed disaster recovery system with 99.9% uptime SLA"
+      ]
     },
     {
       "id": 2,
       "date": "2019 - 2021",
       "title": "Data Engineer",
       "company": "DataFlow Inc.",
-      "description": "Built and maintained ETL pipelines for real-time and batch processing. Implemented data quality frameworks and automated testing for data pipelines. Reduced data processing costs by 35% through optimization.",
-      "skills": ["Python", "Apache Kafka", "AWS", "PostgreSQL", "Apache Beam"]
+      "description": "Built and maintained ETL pipelines for real-time and batch processing, handling 5TB+ of data daily. Implemented comprehensive data quality frameworks and automated testing for data pipelines. Collaborated with data science teams to optimize ML model training pipelines. Reduced data processing costs by 35% through intelligent resource optimization and caching strategies.",
+      "skills": ["Python", "Apache Kafka", "AWS", "PostgreSQL", "Apache Beam", "Elasticsearch", "Jenkins", "Git"],
+      "achievements": [
+        "Built real-time streaming pipelines processing 1M+ events/hour",
+        "Implemented data quality framework reducing data errors by 90%",
+        "Optimized ETL processes saving $200K annually in compute costs",
+        "Created automated monitoring system preventing 95% of pipeline failures"
+      ]
     },
     {
       "id": 3,
       "date": "2018 - 2019",
       "title": "Junior Data Engineer",
       "company": "Analytics Pro",
-      "description": "Developed data extraction and transformation scripts for various data sources. Collaborated with data scientists to prepare datasets for machine learning models. Built monitoring and alerting systems for data pipelines.",
-      "skills": ["Python", "SQL", "Apache Airflow", "MySQL", "Docker"]
+      "description": "Developed data extraction and transformation scripts for diverse data sources including APIs, databases, and flat files. Collaborated closely with data scientists to prepare clean, analysis-ready datasets for machine learning models. Built comprehensive monitoring and alerting systems for data pipelines. Gained expertise in cloud platforms and modern data engineering tools.",
+      "skills": ["Python", "SQL", "Apache Airflow", "MySQL", "Docker", "Pandas", "NumPy", "Jupyter"],
+      "achievements": [
+        "Automated 15+ manual data processes saving 40 hours/week",
+        "Built data validation framework detecting 99% of data anomalies",
+        "Created interactive dashboards for business stakeholders",
+        "Optimized database queries improving performance by 70%"
+      ]
     },
     {
       "id": 4,
       "date": "2017 - 2018",
       "title": "Software Developer",
       "company": "DevSolutions Ltd.",
-      "description": "Started career as a full-stack developer before transitioning to data engineering. Built web applications and APIs, gaining valuable experience in software development lifecycle and agile methodologies.",
-      "skills": ["Python", "JavaScript", "React", "PostgreSQL", "REST APIs"]
+      "description": "Started career as a full-stack developer building web applications and APIs before discovering passion for data engineering. Developed customer-facing applications serving 10K+ users daily. Gained valuable experience in software development lifecycle, agile methodologies, and system design principles that later proved invaluable in data engineering roles.",
+      "skills": ["Python", "JavaScript", "React", "PostgreSQL", "REST APIs", "Django", "HTML/CSS", "Git"],
+      "achievements": [
+        "Built web applications serving 10K+ daily active users",
+        "Implemented CI/CD pipeline reducing deployment time by 50%",
+        "Optimized database operations improving app response time by 40%",
+        "Mentored 3 junior developers in best coding practices"
+      ]
     }
   ],
   "skills": [
     {
       "category": "Programming Languages",
       "icon": "fas fa-code",
-      "skills": ["Python", "SQL", "Scala", "Java", "JavaScript", "Shell Scripting"]
+      "skills": ["Python", "SQL", "Scala", "Java", "JavaScript", "Shell Scripting", "Go", "R"]
     },
     {
-      "category": "Data Processing",
+      "category": "Data Processing & Analytics",
       "icon": "fas fa-database",
-      "skills": ["Apache Spark", "Apache Kafka", "Apache Beam", "Pandas", "NumPy", "Dask"]
+      "skills": ["Apache Spark", "Apache Kafka", "Apache Beam", "Pandas", "NumPy", "Dask", "Apache Flink", "dbt"]
     },
     {
       "category": "Cloud Platforms",
       "icon": "fas fa-cloud",
-      "skills": ["Google Cloud Platform", "Amazon Web Services", "Microsoft Azure", "Databricks"]
+      "skills": ["Google Cloud Platform", "Amazon Web Services", "Microsoft Azure", "Databricks", "Snowflake"]
     },
     {
       "category": "Orchestration & Workflow",
       "icon": "fas fa-sitemap",
-      "skills": ["Apache Airflow", "Prefect", "Dagster", "Google Cloud Composer", "AWS Step Functions"]
+      "skills": ["Apache Airflow", "Prefect", "Dagster", "Google Cloud Composer", "AWS Step Functions", "Luigi"]
     },
     {
-      "category": "Databases",
+      "category": "Databases & Storage",
       "icon": "fas fa-server",
-      "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "BigQuery", "Snowflake"]
+      "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "BigQuery", "Snowflake", "InfluxDB", "Cassandra"]
     },
     {
       "category": "DevOps & Infrastructure",
       "icon": "fas fa-cogs",
-      "skills": ["Docker", "Kubernetes", "Terraform", "CI/CD", "Git", "Linux"]
+      "skills": ["Docker", "Kubernetes", "Terraform", "CI/CD", "Git", "Linux", "Jenkins", "Ansible"]
+    },
+    {
+      "category": "Monitoring & Observability",
+      "icon": "fas fa-chart-line",
+      "skills": ["Grafana", "Prometheus", "Datadog", "New Relic", "Apache Superset", "Looker", "Tableau"]
+    },
+    {
+      "category": "Machine Learning & MLOps",
+      "icon": "fas fa-brain",
+      "skills": ["MLflow", "Kubeflow", "TensorFlow", "Scikit-learn", "Apache Spark MLlib", "Feast", "DVC"]
     }
   ],
   "achievements": [
     {
       "icon": "fas fa-trophy",
       "title": "Data Engineering Excellence Award",
-      "description": "Recognized for outstanding contributions to data architecture and pipeline optimization, resulting in 50% improvement in processing efficiency."
+      "description": "Recognized for outstanding contributions to data architecture and pipeline optimization, resulting in 50% improvement in processing efficiency across all enterprise projects. Led initiative that saved company $2M annually in infrastructure costs."
     },
     {
       "icon": "fas fa-users",
-      "title": "Team Leadership",
-      "description": "Successfully led a team of 8 engineers in migrating legacy systems to modern cloud-native architecture, completing the project 2 months ahead of schedule."
+      "title": "Team Leadership & Mentorship",
+      "description": "Successfully led cross-functional teams of 8+ engineers in migrating legacy systems to modern cloud-native architecture. Mentored 15+ junior engineers with 90% receiving promotions within 18 months. Developed comprehensive onboarding program reducing ramp-up time by 40%."
     },
     {
       "icon": "fas fa-chart-line",
-      "title": "Cost Optimization",
-      "description": "Implemented cost optimization strategies across multiple projects, achieving cumulative savings of $2M annually through efficient resource utilization."
+      "title": "Cost Optimization Champion",
+      "description": "Implemented cost optimization strategies across 20+ projects, achieving cumulative savings of $3M annually through efficient resource utilization, automated scaling, and intelligent data lifecycle management. Reduced cloud spend by 45% while improving performance."
     },
     {
       "icon": "fas fa-graduation-cap",
-      "title": "Technical Mentorship",
-      "description": "Mentored 15+ junior engineers, with 90% receiving promotions within 18 months. Developed internal training programs for data engineering best practices."
+      "title": "Technical Education & Training",
+      "description": "Created and delivered 25+ technical workshops on data engineering best practices. Developed internal certification program adopted by 200+ engineers across the organization. Regular contributor to company tech blog with 50K+ monthly readers."
     },
     {
       "icon": "fas fa-open-source",
-      "title": "Open Source Contributions",
-      "description": "Active contributor to Apache Airflow and other open source projects. Created and maintain popular data engineering tools with 1000+ GitHub stars."
+      "title": "Open Source Impact",
+      "description": "Active contributor to Apache Airflow, Spark, and other major open source projects with 100+ merged PRs. Created and maintain popular data engineering tools with 5000+ GitHub stars. Framework adopted by 100+ companies worldwide, featured in major tech conferences."
     },
     {
       "icon": "fas fa-microphone",
-      "title": "Industry Speaking",
-      "description": "Regular speaker at data engineering conferences and meetups. Delivered 20+ technical talks on data architecture, streaming, and best practices."
+      "title": "Industry Thought Leadership",
+      "description": "Delivered 35+ technical talks at major conferences including Strata Data, DataEngConf, and Apache Airflow Summit. Published 50+ technical articles with 500K+ total views. Recognized as top 10 data engineering influencer by industry publications."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "Data Security & Compliance",
+      "description": "Led implementation of enterprise-grade data security and privacy frameworks ensuring GDPR, CCPA, and SOX compliance. Designed zero-trust data architecture protecting sensitive customer information across 15+ data products."
+    },
+    {
+      "icon": "fas fa-rocket",
+      "title": "Innovation & R&D",
+      "description": "Pioneered adoption of emerging technologies including stream processing, data mesh architecture, and MLOps platforms. Filed 3 patents for data processing innovations. Led R&D initiatives resulting in 5 new product features generating $1M+ additional revenue."
     }
   ]
 }

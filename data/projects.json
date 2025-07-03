@@ -3,9 +3,9 @@
   {
     "id": 1,
     "title": "Real-time Customer Analytics Pipeline",
-    "description": "Built a comprehensive real-time analytics pipeline processing 1M+ events per day using Apache Kafka, Spark Streaming, and Google BigQuery. Implemented automated data quality checks and monitoring dashboards that reduced data processing latency by 60%.",
+    "description": "Built a comprehensive real-time analytics pipeline processing 1M+ events per day using Apache Kafka, Spark Streaming, and Google BigQuery. Implemented automated data quality checks and monitoring dashboards that reduced data processing latency by 60%. The system handles customer behavior tracking, purchase analytics, and real-time personalization recommendations.",
     "role": "Lead Data Engineer",
-    "techStack": ["Python", "Apache Kafka", "Apache Spark", "Google BigQuery", "Docker", "Kubernetes", "Grafana"],
+    "techStack": ["Python", "Apache Kafka", "Apache Spark", "Google BigQuery", "Docker", "Kubernetes", "Grafana", "Apache Airflow", "Redis"],
     "githubUrl": "https://github.com/username/customer-analytics-pipeline",
     "liveUrl": "https://analytics-dashboard.example.com",
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
@@ -13,9 +13,9 @@
   {
     "id": 2,
     "title": "MLOps Platform for Credit Risk Assessment",
-    "description": "Designed and implemented an end-to-end MLOps platform for credit risk assessment models. Features automated model training, validation, deployment, and monitoring with A/B testing capabilities. Improved model deployment time from weeks to hours.",
-    "role": "Senior Data Engineer",
-    "techStack": ["Python", "Apache Airflow", "MLflow", "AWS SageMaker", "PostgreSQL", "Redis", "FastAPI"],
+    "description": "Designed and implemented an end-to-end MLOps platform for credit risk assessment models. Features automated model training, validation, deployment, and monitoring with A/B testing capabilities. Improved model deployment time from weeks to hours while maintaining 99.9% uptime. The platform serves 50+ ML models in production.",
+    "role": "Senior Data Engineer & MLOps Lead",
+    "techStack": ["Python", "Apache Airflow", "MLflow", "AWS SageMaker", "PostgreSQL", "Redis", "FastAPI", "Docker", "Terraform"],
     "githubUrl": "https://github.com/username/mlops-credit-risk",
     "liveUrl": "https://credit-risk-platform.example.com",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
@@ -23,9 +23,9 @@
   {
     "id": 3,
     "title": "Data Lake Migration to Cloud",
-    "description": "Led the migration of a 500TB on-premises data lake to Google Cloud Platform. Implemented data governance, security, and cost optimization strategies. Achieved 40% cost reduction while improving query performance by 3x.",
+    "description": "Led the migration of a 500TB on-premises data lake to Google Cloud Platform. Implemented comprehensive data governance, security frameworks, and cost optimization strategies. Achieved 40% cost reduction while improving query performance by 3x. The migration included 200+ data sources and zero downtime deployment.",
     "role": "Data Architecture Lead",
-    "techStack": ["Google Cloud Storage", "BigQuery", "Cloud Dataflow", "Cloud Composer", "Terraform", "Apache Beam"],
+    "techStack": ["Google Cloud Storage", "BigQuery", "Cloud Dataflow", "Cloud Composer", "Terraform", "Apache Beam", "Python", "SQL"],
     "githubUrl": "https://github.com/username/data-lake-migration",
     "liveUrl": null,
     "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop"
@@ -33,11 +33,31 @@
   {
     "id": 4,
     "title": "Open Source ETL Framework",
-    "description": "Created and maintain an open-source ETL framework that simplifies data pipeline development. Features include automatic schema evolution, data lineage tracking, and built-in monitoring. Used by 50+ companies worldwide.",
+    "description": "Created and maintain an open-source ETL framework that simplifies data pipeline development. Features include automatic schema evolution, data lineage tracking, built-in monitoring, and support for multiple data sources. Used by 50+ companies worldwide with 2000+ GitHub stars. The framework reduces pipeline development time by 70%.",
     "role": "Creator & Maintainer",
-    "techStack": ["Python", "Apache Airflow", "PostgreSQL", "MongoDB", "Docker", "GitHub Actions"],
+    "techStack": ["Python", "Apache Airflow", "PostgreSQL", "MongoDB", "Docker", "GitHub Actions", "Pandas", "SQLAlchemy"],
     "githubUrl": "https://github.com/username/etl-framework",
     "liveUrl": "https://etl-framework.dev",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Stream Processing Platform for IoT Data",
+    "description": "Built a scalable stream processing platform handling 10M+ IoT sensor readings per minute. Implemented real-time anomaly detection, predictive maintenance alerts, and automated data quality monitoring. The platform reduced equipment downtime by 35% and processes data from 50,000+ connected devices.",
+    "role": "Senior Data Engineer",
+    "techStack": ["Apache Kafka", "Apache Flink", "InfluxDB", "Grafana", "Python", "Go", "Kubernetes", "Prometheus"],
+    "githubUrl": "https://github.com/username/iot-stream-platform",
+    "liveUrl": "https://iot-platform.example.com",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop"
+  },
+  {
+    "id": 6,
+    "title": "Data Mesh Implementation for E-commerce",
+    "description": "Implemented data mesh architecture for a large e-commerce platform, enabling decentralized data ownership across 15+ business domains. Built self-serve data infrastructure and automated data product deployment. Improved data discovery by 80% and reduced time-to-insight from weeks to hours.",
+    "role": "Data Mesh Architect",
+    "techStack": ["Apache Kafka", "Kubernetes", "Apache Airflow", "dbt", "Snowflake", "Terraform", "Python", "GraphQL"],
+    "githubUrl": "https://github.com/username/data-mesh-ecommerce",
+    "liveUrl": null,
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop"
   }
 ]
