@@ -3,26 +3,26 @@
   "experience": [
     {
       "id": 1,
-      "date": "2021 - Present",
-      "title": "Senior Data Engineer",
-      "company": "TechCorp Solutions",
-      "description": "Lead data engineering initiatives for enterprise clients, designing and implementing scalable data pipelines processing 10TB+ daily. Architect cloud-native solutions on GCP and AWS, reducing infrastructure costs by 35%. Mentor team of 8 junior engineers and drive adoption of DataOps best practices. Led successful migration of legacy systems to modern data architecture, completing projects 25% ahead of schedule.",
-      "skills": ["Python", "Apache Spark", "Google Cloud Platform", "Kubernetes", "Apache Airflow", "BigQuery", "Terraform", "Docker"],
-      "achievements": [
-        "Reduced data processing latency by 60% through pipeline optimization",
-        "Led team of 8 engineers in successful cloud migration project",
-        "Implemented automated testing reducing production bugs by 80%",
-        "Designed disaster recovery system with 99.9% uptime SLA"
+      "date": "2022 - Present",
+      "title": "Data Engineer",
+      "company": "Paypal",
+      "description": "Led the end-to-end migration of data pipelines from SAS to Teradata and Teradata to BigQuery, enabling cloud-optimized analytics at scale. Optimized BigQuery scripts, improving runtime by 40% and cutting query costs by 25%. Built a data latency monitoring tool to ensure data freshness and transparency for stakeholders. Contributed across Sanctions, CIP, and Seller Risk domains, aligning technical solutions with business goals. Recognized with a team shout-out at GFCCP for leading critical pipeline module migration and developing a reusable batch monitoring framework that accelerated delivery and boosted operational visibility.",
+      "skills": ["Python", "Apache Spark", "Google Cloud Platform", "Apache Airflow", "BigQuery", "Docker"],
+      "comments": [
+        "Performed end-to-end migration of data pipelines from SAS to Teradata and Teradata to BigQuery, enabling scalable and cloudoptimized analytics.",
+        "Optimized BigQuery scripts for a critical project, improving runtime and CPU efficiency by 40% and reducing query costs by 25%",
+        "Developed a data latency report and monitoring tool to track data freshness and proactively inform customers about the availability of latest data.",
+        "Worked across Sanctions, CIP, and Seller Risk domains, driving technical improvements while aligning data solutions with stakeholder business goals."
       ]
     },
     {
       "id": 2,
-      "date": "2019 - 2021",
-      "title": "Data Engineer",
-      "company": "DataFlow Inc.",
-      "description": "Built and maintained ETL pipelines for real-time and batch processing, handling 5TB+ of data daily. Implemented comprehensive data quality frameworks and automated testing for data pipelines. Collaborated with data science teams to optimize ML model training pipelines. Reduced data processing costs by 35% through intelligent resource optimization and caching strategies.",
-      "skills": ["Python", "Apache Kafka", "AWS", "PostgreSQL", "Apache Beam", "Elasticsearch", "Jenkins", "Git"],
-      "achievements": [
+      "date": "2021 - 2022",
+      "title": "Development Engineer 2",
+      "company": "Comcast India Engineering Center",
+      "description": "Led the end-to-end migration of data from flat files into a centralized Data Integration Layer, implementing complex ETL logic tailored to business requirements. Developed secure Pentaho jobs to ingest encrypted files into Oracle tables and optimized SQL performance through strategic indexing. Designed and deployed a reusable Python-based File Validation Framework that significantly improved data quality and reduced production support by 20%, while boosting processing efficiency by 35%.",
+      "skills": ["Python", "AWS", "Git", "Oracle SQL", "Pentaho", "Rundeck", "Shell Scripting"],
+      "comments": [
         "Built real-time streaming pipelines processing 1M+ events/hour",
         "Implemented data quality framework reducing data errors by 90%",
         "Optimized ETL processes saving $200K annually in compute costs",
@@ -31,30 +31,16 @@
     },
     {
       "id": 3,
-      "date": "2018 - 2019",
-      "title": "Junior Data Engineer",
-      "company": "Analytics Pro",
-      "description": "Developed data extraction and transformation scripts for diverse data sources including APIs, databases, and flat files. Collaborated closely with data scientists to prepare clean, analysis-ready datasets for machine learning models. Built comprehensive monitoring and alerting systems for data pipelines. Gained expertise in cloud platforms and modern data engineering tools.",
-      "skills": ["Python", "SQL", "Apache Airflow", "MySQL", "Docker", "Pandas", "NumPy", "Jupyter"],
-      "achievements": [
+      "date": "2018 - 2021",
+      "title": "System Engineer",
+      "company": "Tata Consultancy Services",
+      "description": "Designed and optimized complex SQL logic in BTEQ to streamline ETL processes, significantly reducing code complexity. Managed high-volume data workflows across 150+ tables and conducted detailed Root Cause Analysis (RCA) to resolve runtime failures efficiently. Engineered robust data pipelines to extract and migrate data from Oracle, Teradata, and Oracle GoldenGate into Flat Files and Teradata targets. Built a custom Python framework to decrypt and load data using Teradata TPT, and developed CARNOT — a real-time alerting framework to ensure end-to-end data quality with zero loss. Also implemented BigQuery pipelines to process and parse JSON payloads into analytics-ready tables.",
+      "skills": ["Python", "SQL", "UC4", "MySQL", "Control-M", "Pandas", "NumPy", "Jupyter", "Teradata", "BigQuery"],
+      "comments": [
         "Automated 15+ manual data processes saving 40 hours/week",
         "Built data validation framework detecting 99% of data anomalies",
         "Created interactive dashboards for business stakeholders",
         "Optimized database queries improving performance by 70%"
-      ]
-    },
-    {
-      "id": 4,
-      "date": "2017 - 2018",
-      "title": "Software Developer",
-      "company": "DevSolutions Ltd.",
-      "description": "Started career as a full-stack developer building web applications and APIs before discovering passion for data engineering. Developed customer-facing applications serving 10K+ users daily. Gained valuable experience in software development lifecycle, agile methodologies, and system design principles that later proved invaluable in data engineering roles.",
-      "skills": ["Python", "JavaScript", "React", "PostgreSQL", "REST APIs", "Django", "HTML/CSS", "Git"],
-      "achievements": [
-        "Built web applications serving 10K+ daily active users",
-        "Implemented CI/CD pipeline reducing deployment time by 50%",
-        "Optimized database operations improving app response time by 40%",
-        "Mentored 3 junior developers in best coding practices"
       ]
     }
   ],
@@ -62,84 +48,85 @@
     {
       "category": "Programming Languages",
       "icon": "fas fa-code",
-      "skills": ["Python", "SQL", "Scala", "Java", "JavaScript", "Shell Scripting", "Go", "R"]
+      "skills": ["Python", "SQL", "Shell Scripting" , "Pyspark"]
     },
     {
       "category": "Data Processing & Analytics",
       "icon": "fas fa-database",
-      "skills": ["Apache Spark", "Apache Kafka", "Apache Beam", "Pandas", "NumPy", "Dask", "Apache Flink", "dbt"]
+      "skills": ["Apache Spark", "Apache Kafka", "Apache Beam", "Pandas"]
     },
     {
       "category": "Cloud Platforms",
       "icon": "fas fa-cloud",
-      "skills": ["Google Cloud Platform", "Amazon Web Services", "Microsoft Azure", "Databricks", "Snowflake"]
+      "skills": ["Google Cloud Platform", "Amazon Web Services", "Snowflake"]
     },
     {
       "category": "Orchestration & Workflow",
       "icon": "fas fa-sitemap",
-      "skills": ["Apache Airflow", "Prefect", "Dagster", "Google Cloud Composer", "AWS Step Functions", "Luigi"]
+      "skills": ["Apache Airflow",  "AWS Step Functions", "UC4" , "Control-M" , "Rundeck" , "Crontab"]
     },
     {
       "category": "Databases & Storage",
       "icon": "fas fa-server",
-      "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "BigQuery", "Snowflake", "InfluxDB", "Cassandra"]
+      "skills": ["BigQuery", "MySQL", "MongoDB" , "Oralce SQL", "Snowflake", "Teradata"]
     },
     {
       "category": "DevOps & Infrastructure",
       "icon": "fas fa-cogs",
-      "skills": ["Docker", "Kubernetes", "Terraform", "CI/CD", "Git", "Linux", "Jenkins", "Ansible"]
+      "skills": ["Docker", "Kubernetes", "Git", "Linux", "Docker Compose"]
     },
     {
       "category": "Monitoring & Observability",
       "icon": "fas fa-chart-line",
-      "skills": ["Grafana", "Prometheus", "Datadog", "New Relic", "Apache Superset", "Looker", "Tableau"]
+      "skills": ["Grafana", "Prometheus", "Datadog",  "Tableau", "Power BI"]
     },
     {
-      "category": "Machine Learning & MLOps",
+      "category": "Data Modeling & Concepts",
       "icon": "fas fa-brain",
-      "skills": ["MLflow", "Kubeflow", "TensorFlow", "Scikit-learn", "Apache Spark MLlib", "Feast", "DVC"]
+      "skills": ["Dimensional Modeling", "Star Schema", "Snowflake Schema", "Data Lake", "Data Mart"]
     }
   ],
   "achievements": [
-    {
-      "icon": "fas fa-trophy",
-      "title": "Data Engineering Excellence Award",
-      "description": "Recognized for outstanding contributions to data architecture and pipeline optimization, resulting in 50% improvement in processing efficiency across all enterprise projects. Led initiative that saved company $2M annually in infrastructure costs."
-    },
-    {
-      "icon": "fas fa-users",
-      "title": "Team Leadership & Mentorship",
-      "description": "Successfully led cross-functional teams of 8+ engineers in migrating legacy systems to modern cloud-native architecture. Mentored 15+ junior engineers with 90% receiving promotions within 18 months. Developed comprehensive onboarding program reducing ramp-up time by 40%."
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "title": "Cost Optimization Champion",
-      "description": "Implemented cost optimization strategies across 20+ projects, achieving cumulative savings of $3M annually through efficient resource utilization, automated scaling, and intelligent data lifecycle management. Reduced cloud spend by 45% while improving performance."
-    },
-    {
-      "icon": "fas fa-graduation-cap",
-      "title": "Technical Education & Training",
-      "description": "Created and delivered 25+ technical workshops on data engineering best practices. Developed internal certification program adopted by 200+ engineers across the organization. Regular contributor to company tech blog with 50K+ monthly readers."
-    },
-    {
-      "icon": "fas fa-open-source",
-      "title": "Open Source Impact",
-      "description": "Active contributor to Apache Airflow, Spark, and other major open source projects with 100+ merged PRs. Created and maintain popular data engineering tools with 5000+ GitHub stars. Framework adopted by 100+ companies worldwide, featured in major tech conferences."
-    },
-    {
-      "icon": "fas fa-microphone",
-      "title": "Industry Thought Leadership",
-      "description": "Delivered 35+ technical talks at major conferences including Strata Data, DataEngConf, and Apache Airflow Summit. Published 50+ technical articles with 500K+ total views. Recognized as top 10 data engineering influencer by industry publications."
-    },
-    {
-      "icon": "fas fa-shield-alt",
-      "title": "Data Security & Compliance",
-      "description": "Led implementation of enterprise-grade data security and privacy frameworks ensuring GDPR, CCPA, and SOX compliance. Designed zero-trust data architecture protecting sensitive customer information across 15+ data products."
-    },
-    {
-      "icon": "fas fa-rocket",
-      "title": "Innovation & R&D",
-      "description": "Pioneered adoption of emerging technologies including stream processing, data mesh architecture, and MLOps platforms. Filed 3 patents for data processing innovations. Led R&D initiatives resulting in 5 new product features generating $1M+ additional revenue."
-    }
-  ]
+  {
+    "icon": "fas fa-exchange-alt",
+    "title": "Cloud Migration Expert",
+    "description": "Performed end-to-end migration of data pipelines from SAS to Teradata and Teradata to BigQuery, enabling scalable and cloud-optimized analytics across multiple business domains."
+  },
+  {
+    "icon": "fas fa-bolt",
+    "title": "Query Performance Optimization",
+    "description": "Optimized BigQuery scripts for a critical project, improving runtime and CPU efficiency by 40% and reducing query costs by 25%."
+  },
+  {
+    "icon": "fas fa-clock",
+    "title": "Data Freshness & Monitoring",
+    "description": "Developed a data latency report and monitoring tool to track data freshness and proactively notify stakeholders about the availability of the latest data."
+  },
+  {
+    "icon": "fas fa-shield-alt",
+    "title": "Data Quality Framework Innovator",
+    "description": "Built a reusable Python-based File Validation Framework to validate flat files before ingestion, reducing production support by 20% and improving data quality by 35%."
+  },
+  {
+    "icon": "fas fa-bug",
+    "title": "Root Cause Analysis at Scale",
+    "description": "Managed ETL workflows across 150+ tables and performed in-depth RCA for runtime failures, enhancing system reliability and operational efficiency."
+  },
+  {
+    "icon": "fas fa-code",
+    "title": "Python Automation & Alerts",
+    "description": "Created CARNOT – a Python-based real-time alerting framework to notify end users about data quality issues, ensuring zero data loss post ingestion."
+  },
+  {
+    "icon": "fas fa-key",
+    "title": "Secure ETL with Encryption Handling",
+    "description": "Developed a Python framework to decrypt and parse data from encrypted sources, enabling secure loading into Teradata using TPT loaders."
+  },
+  {
+    "icon": "fas fa-project-diagram",
+    "title": "Enterprise-Scale ETL Architect",
+    "description": "Designed and implemented complex ETL workflows to extract data from Oracle, Teradata, and Oracle GoldenGate into flat files and warehouse targets."
+  }
+]
+
 }

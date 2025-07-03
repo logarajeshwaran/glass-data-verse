@@ -2,19 +2,19 @@
 [
   {
     "id": 1,
-    "title": "Building Scalable Data Pipelines with Apache Beam",
-    "date": "2024-01-15",
-    "summary": "A comprehensive guide to building scalable, portable data pipelines using Apache Beam. Learn best practices for batch and streaming processing, optimization techniques, and how to handle complex data transformations at scale.",
-    "readTime": "12 min read",
-    "url": "https://your-blog.com/scalable-data-pipelines-apache-beam"
+    "title": "What is a MongoDB Replica Set? A Beginner-Friendly Guide with Docker Compose Demo",
+    "date": "2025-04-19",
+    "summary": "A beginner-friendly guide to understanding MongoDB replica sets. Learn how to achieve high availability and fault tolerance with primary-secondary node setup, automatic failover, and a hands-on Docker Compose demo.",
+    "readTime": "6 min read",
+    "url": "https://logak.hashnode.dev/create-a-scalable-web-app-with-docker-compose-in-under-5-minutes"
   },
   {
     "id": 2,
-    "title": "Data Quality: The Foundation of Reliable Analytics",
-    "date": "2024-01-08",
-    "summary": "Exploring comprehensive strategies for implementing robust data quality frameworks in modern data engineering workflows. From validation rules to automated monitoring and alerting systems.",
-    "readTime": "8 min read",
-    "url": "https://your-blog.com/data-quality-reliable-analytics"
+    "title": "Create a Scalable Web App with Docker Compose in Under 5 Minutes",
+    "date": "2025-04-18",
+    "summary": "A quick-start guide to building and scaling a web application using Docker Compose. Learn how to containerize frontend, backend, and database services, and orchestrate them for rapid development and deployment—all in under 5 minutes.",
+    "readTime": "3 min read",
+    "url": "https://logak.hashnode.dev/create-a-scalable-web-app-with-docker-compose-in-under-5-minutes"
   },
   {
     "id": 3,
