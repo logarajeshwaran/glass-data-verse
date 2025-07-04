@@ -60,7 +60,7 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-avatar">
-                    <img src="public/data/20240913_140529.jpg" alt="Loga Rajeshwaran" class="profile-image">
+                    <img src="data/20240913_140529.jpg" alt="Loga Rajeshwaran" class="profile-image">
                     <div class="avatar-glow"></div>
                 </div>
                 <h1 class="hero-title animate-fade-up">
@@ -375,7 +375,7 @@
     <script src="js/animations.js" type="module"></script>
     <script src="js/enhanced.js" type="module"></script>
 <script>
-fetch('public/data/resume.json')
+fetch('data/resume.json')
   .then(res => res.json())
   .then(data => {
     // Timeline (Experience)
@@ -517,7 +517,7 @@ fetch('public/data/resume.json')
 </style>
 <script>
 // Enhanced Skills Loader
-fetch('public/data/resume.json')
+fetch('data/resume.json')
   .then(res => res.json())
   .then(data => {
     const skills = data.skills || [];
@@ -600,7 +600,7 @@ fetch('public/data/resume.json')
 }
 </style>
 <script>
-fetch('public/data/resume.json')
+fetch('data/resume.json')
   .then(res => res.json())
   .then(data => {
     const achievements = data.achievements || [];
@@ -751,7 +751,7 @@ fetch('public/data/resume.json')
 </style>
 <script>
 // Enhanced Blog Loader
-fetch('public/data/blog.json')
+fetch('data/blog.json')
   .then(res => res.json())
   .then(posts => {
     const container = document.getElementById('blog-container');
@@ -856,7 +856,7 @@ fetch('public/data/blog.json')
 </style>
 <script>
 // Enhanced Testimonials Loader
-fetch('public/data/testimonials.json')
+fetch('data/testimonials.json')
   .then(res => res.json())
   .then(testimonials => {
     const container = document.getElementById('testimonials-container');
@@ -951,7 +951,7 @@ fetch('public/data/testimonials.json')
 </style>
 <script>
 // Enhanced Projects Loader
-fetch('public/data/projects.json')
+fetch('data/projects.json')
   .then(res => res.json())
   .then(projects => {
     const container = document.getElementById('projects-container');
